@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@color/translucent_black" android:orientation="vertical">
+
+	<CheckBox android:id="@+id/bg_checkbox" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Enable background play"
+		android:paddingTop="10dip" android:paddingBottom="5dip"
+		android:paddingLeft="50dip" android:paddingRight="5dip" />
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/info_text"
+		android:text="@string/info_text" android:textColor="@color/info_text"
+		android:padding="20dip" />
+
+	<Button android:id="@+id/site_button" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="@string/info_site_name"
+		android:layout_gravity="center_horizontal" />
+		
+	<Button android:id="@+id/phone_button" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="@string/info_phone_name"
+		android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:gravity="bottom" android:orientation="vertical">
+	<LinearLayout android:id="@+id/button_bg"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:paddingTop="10dip"
+		android:paddingBottom="5dip" android:paddingLeft="5dip"
+		android:paddingRight="5dip" android:background="@color/translucent_black" >
+		<Button android:id="@+id/stream_control" android:layout_width="0dip"
+			android:layout_weight="1" android:layout_height="wrap_content"
+			android:text="@string/button_control_play" android:drawableLeft="@drawable/control_play_icon" />
+	</LinearLayout>
+</LinearLayout>

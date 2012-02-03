@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">100.3 WXYZ</string>
+    <string name="app_description">We Play All Kinds of Music! 100.3 WXYZ</string>
+    <string name="tab_name_HD1">Listen Live</string>
+    <string name="tab_name_HD2">HD2 Channel</string>
+    <string name="tab_name_podcasts">Podcasts</string>
+    <string name="tab_name_info">Options</string>
+    <string name="stream_url_HD1">http://live.streamtheworld.com:80/WXYZFMMOBILECMP3</string>
+    <string name="stream_url_HD2">http://live.streamtheworld.com:80/WXYZHD2MP3</string>
+    <string name="stream_pls_HD1">http://playerservices.streamtheworld.com/pls/WXYZFMMOBILE.pls</string>
+    <string name="stream_pls_HD2">http://playerservices.streamtheworld.com/pls/WXYZHD2.pls</string>
+    <string name="button_control_play">Play</string>
+    <string name="button_control_pause">Pause</string>
+    <string name="button_control_stop">Stop</string>
+    <string name="button_control_loading">Loading...</string>    
+    <string name="info_text">Man, we play everything. I mean, we play all kinds of music! Really. Really really. 100.3 WXYZ.</string>
+	<string name="info_url">http://www.wxyz.com/</string>
+	<string name="info_site_name">www.wxyz.com</string>
+	<string name="info_phone_no">tel:2158675309</string>
+	<string name="info_phone_name">Request Line: 215-867-5309</string>
+	<string name="ad_zone_url">http://your_ad_url</string>
+	<string name="bg_play_notification_on">Background play is enabled!</string>
+	<string name="bg_play_notification_off">Background play is disabled! \n Select the \'Options\' tab to enable.</string>
+	<string name="network_error">Network Error: Please check your connection and try again!</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@android:id/tabhost" android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+	<LinearLayout android:id="@+id/container"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:padding="0dp"
+		android:background="@drawable/background" android:scaleType="centerCrop">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:padding="0dp" android:layout_weight="1">
+			<TabWidget android:id="@android:id/tabs"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			<FrameLayout android:id="@android:id/tabcontent"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:padding="0dp" />
+		</LinearLayout>
+
+		<RelativeLayout android:id="@+id/iab_micro_bar"
+			android:background="@color/translucent_black" android:layout_width="fill_parent" android:layout_height="wrap_content"
+			>
+
+			<WebView android:id="@+id/webview" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:maxHeight="150dip" android:scrollbars=""  
+				android:layout_gravity="center" android:layout_weight="0" android:layout_centerHorizontal="true" />
+		</RelativeLayout>
+	</LinearLayout>
+</TabHost>
