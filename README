@@ -1,0 +1,13 @@
+This is an Android application that plays MP3 streams. It was designed for a single radio station with a primary and a secondary stream, which appear in the first two tabs of the application. The third tab has a setting which enables background play, as well as room for the station's website URL and request line phone number.
+
+To get going:
+
+1. Customize the values in strings.xml to match your station's information. The app will look at the stream_pls_HD_ location before falling back on the stream_url_HD_ URL.
+
+2. Swap out app_icon.png, background.png, and background_hd2.png with images branded to match your station in the res/drawable directories.
+
+3. Build, test, compile and launch in the Android Marketplace.
+
+I've decided to stop development on this application. It worked with few problems until Android 2.2 came out, and we experienced problems only with certain manufacturer's handsets. Before long, OS fragmentation made testing too expensive and bug fixing extremely difficult. I'd had plans to borrow from NPR's Android source code ( http://code.google.com/p/npr-android-app/source/checkout ) in order to fix some of the force close problems by incorporating live stream proxying, but we ran out of time to dedicate to the project.
+
+Looking forward to someone forking and continuing development. This could be a good resource for your station and its listeners.
